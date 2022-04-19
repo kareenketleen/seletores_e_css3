@@ -1,3 +1,137 @@
+* {
+  background-color: black;
+  color: rgb(151, 147, 147);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-image: url(../assets/img/banner_small.png);
+  background-position: center;
+  background-size: cover;
+  height: 570px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: transparent;
+  width: 100%;
+}
+
+nav ul,
+nav li {
+  background-color: transparent;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background-color: black;
+  color: rgb(151, 147, 147);
+}
+
+.sobre {
+  display: flex;
+}
+
+#foto-aside {
+  width: 500px;
+}
+
+.sobre-aside {
+  flex: 1;
+  position: relative;
+  bottom: 90px;
+  background-color: transparent;
+}
+
+.nome {
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+}
+
+.article-paragrafos {
+  flex: 2;
+}
+.paragrafos {
+  text-align: end;
+}
+#jorge-mario {
+  background-color: transparent;
+  color: rgba(57, 14, 14, 0.721);
+  text-shadow: 1px 1px 1px rgba(146, 140, 138, 0.733);
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  left: 160px;
+  width: 300px;
+
+  text-align: end;
+  font-size: 35px;
+}
+
+.discografia {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-image: url(../assets/img/discog.png);
+  background-size: cover;
+  height: 600px;
+}
+
+.capas-de-cds {
+  flex: 1;
+  width: 100%;
+  background-color: transparent;
+}
+.titulo-discografia {
+  width: 100%;
+  font-weight: bold;
+  color: rgb(171, 152, 28);
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  font-size: 50px;
+  text-align: center;
+  background-color: transparent;
+}
+
+#discografia-aside-image {
+  width: 550px;
+}
+
+.spotify {
+  display: flex;
+  background-image: url(../assets/img/spot-img2.png);
+  background-size: cover;
+  height: 742px;
+  justify-content: space-between;
+}
+
+.spot-list {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  background-color: transparent;
+}
+
+.spot-text {
+  background-color: transparent;
+  flex: 1;
+}
+
 footer {
   display: flex;
   flex-direction: column;
